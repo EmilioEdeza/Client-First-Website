@@ -10,32 +10,46 @@
         <div>
             <h1>Client First Website</h1>
         </div>
-        <nav class="mainNav">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#blog">Blog</a></li>
-                <li><a href="#aboutus">About Us</a></li>
-                <li><a href="#contactus">Contact us</a></li>
+        <nav class="main_Nav">
+            <ul class="nav_Container">
+                <li class="nav_Item"><a class="nav_Link" href="#home">Home</a></li>
+                <li class="nav_Item"><a class="nav_Link" href="#blog">Blog</a></li>
+                <li class="nav_Item"><a class="nav_Link" href="#aboutus">About Us</a></li>
+                <li class="nav_Item"><a class="nav_Link" href="#contactus">Contact us</a></li>
             </ul>
         </nav>
-        <div class="subscribeButton">
+        <div class="subscribe_Button">
             <h2>Subscribe to our newsletter</h2>
             <form action="#" method="post">
-                <input type="email" name="email" placeholder="Enter your email" required>
                 <button type="submit">Subscribe</button>
             </form>
+        </div>
     </header>
     <main class="main">
-        <div class="mainImage" id="mainImageFullWidth">
-            <h5>Posted on Startup</h5>
-            <h2>Step-by-step guide to choosing great font pairs</h2>
-            <p>By <a href="https://example.com/james-west">James West</a> | May 23, 2022</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsam! Ullam, deleniti impedit nihil architecto in quidem sed neque quia, sapiente vel quis. Dolore aut fugiat repellat placeat, blanditiis omnis optio, alias repellendus odio numquam quas nisi, dolores architecto laudantium. Vitae laudantium dolorem officia quibusdam rem est asperiores eaque labore?</p>
-            <a href="#">
-                <button>Read More</button>
-            </a>        
-        </div>
-        
+        <section>
+            <div class="mainImage" id="main_Image_Full_ Width">
+                <img src="https://picsum.photos/seed/picsum/200/300" alt="Picsum_Image" class="main_Image">
+                <h5>Posted on Startup</h5>
+                <h2>Step-by-step guide to choosing great font pairs</h2>
+                <p>By <a href="https://example.com/james-west">James West</a> | May 23, 2022</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsam! Ullam, deleniti impedit nihil architecto in quidem sed neque quia, sapiente vel quis. Dolore aut fugiat repellat placeat, blanditiis omnis optio, alias repellendus odio numquam quas nisi, dolores architecto laudantium. Vitae laudantium dolorem officia quibusdam rem est asperiores eaque labore?</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>        
+            </div>
+        </section>
+        <div class="main_Container">
+            <article>
+                <h4>Featured Post</h4>
+                <figure class="image">
+                    <img src="https://picsum.photos/seed/picsum/200/300" alt="Picsum_Image" class="main_Image">
+                </figure>
+                <p>By James West</a> | <span class="blog_date">Saturday, Janury 11, 2025</span></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, ipsam! Ullam, deleniti impedit nihil architecto in quidem sed neque quia, sapiente vel quis. Dolore aut fugiat repellat placeat, blanditiis omnis optio, alias repellendus odio numquam quas nisi, dolores architecto laudantium. Vitae laudantium dolorem officia quibusdam rem est asperiores eaque labore?</p>
+                <a href="#">
+                    <button>Read More</button>
+                </a>
+            </article>
     </main>
     <footer class="footer"></footer>
 </body>
